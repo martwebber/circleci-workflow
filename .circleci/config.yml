@@ -20,6 +20,6 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-      - say-hello-again
+      - say-hello-again:
         requires:
           - say-hello
